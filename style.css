@@ -1,0 +1,17 @@
+*{
+    margin: 20px;
+}
+.body{
+    display: flex;
+    /*justify-content: center;
+    flex-wrap: wrap;*/
+    flex-direction: column;
+}
+#box1{
+    background-image: url('background.jpg');
+    color: white;
+    
+}
+#box3{
+    order: 2;
+}
